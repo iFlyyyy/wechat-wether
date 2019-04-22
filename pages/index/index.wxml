@@ -1,5 +1,17 @@
 <view class="wether-wrapper">
-  <view class="temp">12℃</view>
-  <view class="describe">晴天</view>
-  <image class="image" src='/images/sunny-bg.png'></image>
+  <view class="temp">{{nowtemp}}</view>
+  <view class="weather">{{nowweather}}</view>
+  <image class="image" src="{{nowweatherbackground}}"></image>
  </view>
+ <view class="future-title"><image class="mark" src="/images/time-icon.png"></image>未来24小时天气
+ </view>
+
+<scroll-view scroll-x>
+  <view class="forecast-list">
+    <view class="forecast-item" wx:for="{{hourlyWeather}}">
+      <view class="forecast-time">{{item.time}}</view>
+      <image class='forecast-image' src='{{item.icon}}'></image>
+      <view class="forecast-temp">{{item.temp}}</view>
+    </view>
+  </view> 
+</scroll-view>

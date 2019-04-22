@@ -5,7 +5,7 @@
    opacity: 0.8;
 }
 
-.describe {
+.weather {
   text-align: center;
   font-size:40rpx;
   line-height: 56rpx;
@@ -24,4 +24,48 @@
   position: relative;
   padding-bottom: 250rpx;
   padding-top: 174rpx;
+}
+
+.future-title{
+  font-size: 30rpx;
+  line-height: 42rpx;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 30rpx
+}
+
+.mark{
+  max-width:36rpx;
+  max-height: 28rpx;
+  margin-right: 10rpx
+}
+
+.forecast-item{
+  flex-direction: column;
+  display: flex;
+  flex-shrink: 0;
+  width: 120rpx;
+  align-items: center;
+  margin-top:30rpx;
+}
+
+.forecast-list{
+  display: flex;
+}
+
+.forecast-time {
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.forecast-image {
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.forecast-temp {
+  font-size: 40rpx;
+  line-height: 56rpx
 }
