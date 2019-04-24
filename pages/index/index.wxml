@@ -2,7 +2,12 @@
   <view class="temp">{{nowtemp}}</view>
   <view class="weather">{{nowweather}}</view>
   <image class="image" src="{{nowweatherbackground}}"></image>
- </view>
+  <view class="today" bindtap='next_page'>
+    <view class='today-date'>{{today_date}}</view>
+    <view class="today-temp">{{today_temp}}</view>
+    <image class="today-icon" src="/images/arrow.png"></image>
+  </view>
+  </view>
  <view class="future-title"><image class="mark" src="/images/time-icon.png"></image>未来24小时天气
  </view>
 

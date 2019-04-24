@@ -47,10 +47,12 @@
   width: 120rpx;
   align-items: center;
   margin-top:30rpx;
+  
 }
 
 .forecast-list{
   display: flex;
+  bottom: 0
 }
 
 .forecast-time {
@@ -68,4 +70,29 @@
 .forecast-temp {
   font-size: 40rpx;
   line-height: 56rpx
+}
+
+.today{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  bottom: 0; 
+  left: 60rpx;
+  right: 60rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  opacity: 0.5;
+  border-top-style:dotted;
+}
+
+.today-temp{
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 30rpx;
+}
+
+.today-icon{
+  width: 15rpx;
+  height: 25rpx;
 }

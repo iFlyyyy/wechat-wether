@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view class="seven_day_weather" wx:for="{{seven_day_weather}}">
+<view class='seven_day_time'>
+  <view class='seven_day_week'>星期{{item.day}}</view>
+  <view class='seven_day_date'>{{item.date}}</view>
+</view>
+<view class="seven_day_temp">{{item.minTemp}}°~{{item.maxTemp}}°</view>
+<image class='seven_day_icon' src='/images/{{item.weather}}-icon.png'></image>
+</view>

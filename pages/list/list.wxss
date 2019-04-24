@@ -1,0 +1,31 @@
+/* pages/list/list.wxss */
+.seven_day_weather{
+  display: flex;
+  font-size: 40rpx;
+  line-height: 56rpx;
+  height: 100rpx;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  margin-top: 45rpx;
+  margin-bottom: 45rpx;
+}
+
+
+.seven_day_icon{
+  position: absolute;
+  width: 90rpx;
+  height: 90rpx;
+  right: 0;
+  margin-right: 30rpx;
+}
+
+.seven_day_temp{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 45%;
+}
+
+.seven_day_date{
+  font-size: 25rpx;
+  line-height: 35rpx;
+}
